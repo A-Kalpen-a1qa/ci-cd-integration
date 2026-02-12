@@ -23,9 +23,8 @@ public class CreateUserTest {
     @Test(description = "Create a user - 200 Success")
     public void createUser() {
         User user = new User();
-        user.setUsername(RandomUtils.getRandomAlphabeticString());
-        user.setFirstName(RandomUtils.getRandomAlphabeticString());
-        user.setLastName(RandomUtils.getRandomAlphabeticString());
+        user.setUsername("Amirzhan");
+        user.setLastName("Kalpen");
         user.setEmail(RandomUtils.getRandomAlphabeticString());
         user.setPassword(RandomUtils.getRandomAlphabeticString());
         user.setPhone(RandomUtils.getRandomAlphabeticString());
